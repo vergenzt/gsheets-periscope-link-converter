@@ -11,18 +11,18 @@ function onInstall(e) {
 }
 
 function convertSelection() {
-  convert(SpreadsheetApp.getSelection().getActiveRangeList().getRanges());
+  convert('selection', SpreadsheetApp.getSelection().getActiveRangeList().getRanges());
 }
 
 function convertSheet() {
-  convert([SpreadsheetApp.getActiveSheet().getDataRange()]);
+  convert('current sheet', [SpreadsheetApp.getActiveSheet().getDataRange()]);
 }
 
 function convertSpreadsheet() {
-  convert(SpreadsheetApp.getActiveSpreadsheet().getSheets().map(function (sheet) { return sheet.getDataRange() }));
+  convert('spreadsheet', SpreadsheetApp.getActiveSpreadsheet().getSheets().map(function (sheet) { return sheet.getDataRange() }));
 }
 
-function convert(ranges) {
+function convert(description, ranges) {
   var replacements = [];
   for(var i=0; i<ranges.length; i++) {
     var range = ranges[i];
@@ -51,6 +51,10 @@ function convert(ranges) {
   }
   SpreadsheetApp.flush();
   
-  var numReplacements = replacements.length;
-  SpreadsheetApp.getUi().alert(numReplacements > 0 ? "Replaced " + numReplacements + " Periscope hyperlink(s) with GSheets equivalent." : "No Periscope hyperlinks found.");
+  var n = replacements.length;
+  SpreadsheetApp.getUi().alert(
+    n > 0
+    ? "Replaced " + n + " Periscope hyperlink" + (n == 1 ? "" : "s") + " in " + description + " with GSheets equivalent."
+    : "No Periscope hyperlinks found in " + description + "."
+  );
 }
