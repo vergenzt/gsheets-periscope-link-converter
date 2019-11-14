@@ -6,6 +6,10 @@ function onOpen(e) {
   .addToUi();
 }
 
+function onInstall(e) {
+  onOpen(e);
+}
+
 function convertSelection() {
   convert(SpreadsheetApp.getSelection().getActiveRangeList().getRanges());
 }
@@ -36,6 +40,6 @@ function convert(ranges) {
       }
     }
     
-    SpreadsheetApp.getUi().alert(numReplacements > 0 ? "Replaced " + numReplacements + " Periscope hyperlink(s) with GSheet equivalent." : "No Periscope hyperlinks found.");
+    SpreadsheetApp.getUi().alert(numReplacements > 0 ? "Replacing " + numReplacements + " Periscope hyperlink(s) with GSheets equivalent." : "No Periscope hyperlinks found.");
   }
 }
