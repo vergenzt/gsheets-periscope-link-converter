@@ -21,7 +21,7 @@ A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-doc
 
 ## Periscope docs
 
-[https://doc.periscopedata.com/article/tables#Hyperlinks](https://doc.periscopedata.com/article/tables#Hyperlinks):
+[https://doc.periscopedata.com/article/tables#Hyperlinks](https://doc.periscopedata.com/article/tables#Hyperlinks)
 
 > ### Hyperlinks
 > Tables will automatically convert a valid URL string starting with https:// or https:// into a clickable link. A URL can also be labeled to display a clickable name by utilizing the following syntax:
