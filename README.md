@@ -9,15 +9,15 @@ A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-doc
 
 1. Click Addons > Periscope Link Converter > Convert links in ...
 
-![1](images/screenshot1.png)
+   ![1](images/screenshot1.png)
 
 2. See confirmation.
 
-![2](images/screenshot2.png)
+   ![2](images/screenshot2.png)
 
 3. Voilà! Links you can click.
 
-![3](images/screenshot3.png)
+   ![3](images/screenshot3.png)
 
 ## [Periscope docs:](https://doc.periscopedata.com/article/tables#Hyperlinks)
 
