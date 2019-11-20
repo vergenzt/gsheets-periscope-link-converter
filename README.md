@@ -54,4 +54,4 @@ A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-doc
 
 ---
 
-[Privacy Policy](/privacy-policy)
+[Privacy Policy](privacy-policy.md)
