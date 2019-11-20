@@ -4,10 +4,10 @@ This Privacy Policy describes the information collected by Tim Vergenz through P
 
 ## Information that is collected
 
-None that I know of.
+The application does not collect any information other than what Google requires to be collected in order to install the G Suite Addon.
 
 ## How I use the information I collect
 
-I don't.
+I do not use (download, sell, transfer, etc.) any information provided to this app. I made the app because it is useful to me and I wanted to share it.
 
 If you have any questions, please contact me by email at vergenzt@gmail.com.
