@@ -51,3 +51,7 @@ A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-doc
 > The result is shown below, and clicking each link will open up that user's twitter page:
 > 
 > ![Periscope - column of hyperlinks](https://web.archive.org/web/20191114213951im_/https://assets.website-files.com/58fe8f93dc9e750ca84ebb16/599f35abec00ea00014fbc99_tables8.png)
+
+---
+
+[Privacy Policy](/privacy)
