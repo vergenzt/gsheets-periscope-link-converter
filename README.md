@@ -8,7 +8,7 @@ A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-doc
 2. Click "Install".
 3. Click "Continue", choose your account, and grant permission to the app to access and modify your spreadsheets.
  
-Done! ✅
+Ready to use! ✅
 
 ## Usage
 
