@@ -3,9 +3,16 @@
 A Google Sheets Addon to convert [Periscope-formatted hyperlinks](#periscope-docs) to Google Sheets format.
 
 ## Installation
+
+1. Visit the [G Suite Marketplace listing](https://gsuite.google.com/marketplace/app/periscope_link_converter/100905336982).
+2. Click "Install".
+3. Click "Continue", choose your account, and grant permission to the app to access and modify your spreadsheets.
  
+Done! ✅
 
 ## Usage
+
+After installing:
 
 1. Click Addons > Periscope Link Converter > Convert links in ...
 
