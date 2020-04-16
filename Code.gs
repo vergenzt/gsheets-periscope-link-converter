@@ -30,7 +30,7 @@ function convert(description, ranges) {
     
     for (var j=0; j<range.getHeight(); j++) {
       for (var k=0; k<range.getWidth(); k++) {
-        var match = values[j][k].match(/^\[\s*([^\]]+)\]\(([^\)]+)\)/);
+        var match = values[j][k].toString().match(/^\[\s*([^\]]+)\]\(([^\)]+)\)/);
         if (match) {
           var targetCell = range.getCell(j+1, k+1);
           var label = match[1];
